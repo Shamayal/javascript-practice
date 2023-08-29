@@ -1,4 +1,4 @@
-let sideLength = 10.01; // type coercion
-let area = sideLength * sideLength;
-let perimeter = 4 * sideLength;
-console.log(`For a square with side length ${sideLength}, the area is ${Math.round(area)} cm^2 and the perimeter is ${perimeter} cm.`);
+let radius = 5;
+let area = Math.PI * radius * radius;
+console.log(`The area of a circle with radius ${radius} is approximately ${area.toFixed(2)}.`);
+// output: The area of a circle with radius 5 is approximately 78.54.
