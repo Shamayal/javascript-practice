@@ -32,7 +32,7 @@ let balance = 325.3456;
 let checkBalance = true;
 let isActive = false;
 
-if (checkBalance === true) {
+if (checkBalance) {
   if (isActive && balance > 0) {
     console.log("Your balance is $" + balance.toFixed(2) + ".");
   } else if (isActive && balance === 0) {
