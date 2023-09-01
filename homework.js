@@ -59,7 +59,7 @@ Mr. Chen was in the billiards room
 Dr. Johnson was in the dining room
 */
 let weapon = "";
-let solved = false;
+let solved;
 
 let room = "ballroom";
 let suspect = "Ms. Mora";
